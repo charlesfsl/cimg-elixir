@@ -116,7 +116,7 @@ This can be a full SemVer point release (such as `1.10.2`) or just the minor rel
 If you use the minor release tag, it will automatically point to future patch updates as they are released by the Elixir project.
 For example, the tag `1.10` points to elixir 1.10.2 now, but when the next release comes out, it will point to 1.10.3.
 
-`<erlang-version>` - This specifies the erlang version to use in accordance with the [compatibility chart](https://hexdocs.pm/elixir/1.13.4/compatibility-and-deprecations.html). Note: the default image tag:
+`<erlang-version>` - This specifies the erlang version to use in accordance with the [compatibility chart](https://hexdocs.pm/elixir/compatibility-and-deprecations.html). Note: the default image tag:
 `cimg/elixir:<elixir-version>[-variant]` will utilize the latest version e.g 24.3
 
 
